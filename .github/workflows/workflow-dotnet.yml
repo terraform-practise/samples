@@ -38,4 +38,4 @@ jobs:
       - name: Run buildpack python
         run: |
           cd dotnet-core/aspnet/
-          pack build dotnet-aspnet-sample --buildpack paketo-buildpacks/dotnet-core
+          pack build dotnet-aspnet-sample --buildpack paketo-buildpacks/dotnet-core --builder paketobuildpacks/builder:base
